@@ -12,6 +12,8 @@
 		250F9FDE1E656DE100763EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F9FDC1E656DE100763EEF /* Main.storyboard */; };
 		250F9FE01E656DE100763EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250F9FDF1E656DE100763EEF /* Assets.xcassets */; };
 		250F9FE31E656DE100763EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F9FE11E656DE100763EEF /* LaunchScreen.storyboard */; };
+		250F9FEB1E656DF800763EEF /* Modal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F9FEA1E656DF800763EEF /* Modal.storyboard */; };
+		250F9FED1E656E0D00763EEF /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F9FEC1E656E0D00763EEF /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		250F9FDF1E656DE100763EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		250F9FE21E656DE100763EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		250F9FE41E656DE100763EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250F9FEA1E656DF800763EEF /* Modal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Modal.storyboard; sourceTree = "<group>"; };
+		250F9FEC1E656E0D00763EEF /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				250F9FDF1E656DE100763EEF /* Assets.xcassets */,
 				250F9FE11E656DE100763EEF /* LaunchScreen.storyboard */,
 				250F9FE41E656DE100763EEF /* Info.plist */,
+				250F9FEA1E656DF800763EEF /* Modal.storyboard */,
+				250F9FEC1E656E0D00763EEF /* ModalViewController.swift */,
 			);
 			path = ModalView;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250F9FEB1E656DF800763EEF /* Modal.storyboard in Resources */,
 				250F9FE31E656DE100763EEF /* LaunchScreen.storyboard in Resources */,
 				250F9FE01E656DE100763EEF /* Assets.xcassets in Resources */,
 				250F9FDE1E656DE100763EEF /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				250F9FDB1E656DE100763EEF /* ViewController.swift in Sources */,
+				250F9FED1E656E0D00763EEF /* ModalViewController.swift in Sources */,
 				250F9FD91E656DE100763EEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
